@@ -1,0 +1,14 @@
+class MicrowaveTester{
+public static void main(String lg[]){
+	
+  boolean isConnected = Microwave.onOrOff();
+   System.out.println("finally is Microwave  connected : " + isConnected);
+   
+   
+   
+  boolean isConnected1 = Microwave.onOrOff();
+   System.out.println("finally is Microwave  connected : " +  isConnected1);
+   
+}
+
+} 
